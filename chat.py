@@ -20,7 +20,7 @@ demo = gr.Interface(
     fn=chat,
     inputs=gr.Textbox(
         label="Ask Gemini",
-        placeholder="Type your question..."
+        placeholder="Type your prompt..."
     ),
     outputs=gr.Textbox(label="Gemini Response"),
     title="Gemini AI Chatbot",
